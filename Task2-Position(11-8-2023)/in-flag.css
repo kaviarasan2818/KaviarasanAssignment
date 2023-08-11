@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flag{
+    height: 300px;
+    width: 600px;
+    margin: 160px auto;
+    position: relative;
+    border: .5px solid rgba(0, 0, 0, 0.377);
+}
+.orange{
+    width: 600px;
+    height: 100px;
+    background-color: #FFBD33;
+    position:absolute;
+}
+.white{
+    width: 600px;
+    height: 100px;
+    background-color: #ffffff;
+    position:absolute;
+    top: 100px;
+}
+.green{
+    width: 600px;
+    height: 100px;
+    background-color: #33FF57;
+    position:absolute;
+    bottom: 0;
+}
+.chakara img{
+    height:100px;
+    position: absolute;
+    left: 250px;
+}
