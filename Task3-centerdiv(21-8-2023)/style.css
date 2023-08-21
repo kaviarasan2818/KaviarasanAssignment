@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 20px 50px;
+    height:649px;
+    background-color: antiquewhite;
+}
+.box{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+
+/* ------------------------------Center a div using Position-------------------------------- */
+
+/* .box{
+    position: relative;
+    top: 27%;
+    left: 38%;
+} */
+
+/* -----------------------------Centeer a div using position and transform-------------------- */
+
+/* .container{
+    position: relative;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* ----------------------------Center a div using flex----------------------------------------- */
+
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* --------------------------Center a div using flex and align-self---------------------------- */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    align-self: center;
+} */
+
+/* ---------------------------Center a div using flex and auto margin--------------------------- */
+
+/* .container{
+    display: flex;
+}
+.box{
+    margin: auto;
+} */
+
+/* -----------------------------Center a div using grid and justify-content---------------------- */
+
+/* .container{
+    display: grid;
+     justify-content: center;
+    align-items: center; 
+} */
+
+/* ------------------------------Center a div using grid and justify-items------------------------ */
+
+/* .container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+} */
+
+/* -------------------------------Center a div using grid and place-content----------------------- */
+
+/* .container{
+    display: grid;
+    place-content: center;
+} */
+
+/* -------------------------------Center a div using grid and place-items-------------------------- */
+
+/* .container{
+    display: grid;
+    place-items: center;
+} */
+
+/* -------------------------------Center a div using grid and place-self--------------------------- */
+
+/* .container{
+    display: grid;
+}
+.box{
+    place-self:center;
+} */
+
+/* -------------------------------Center a div using grid and auto maargin--------------------------- */
+
+/* .container{
+    display: grid;
+}
+.box{
+    margin: auto;
+} */
+
+/* -------------------------------Center a div using grid and --------------------------- */
+
+/* .container{
+    display: grid;
+    justify-content: center;
+}
+.box{
+    align-self: center;
+} */
+
+/* ------------------------------------------------------------------------- */
+
+.container{
+    display: grid;
+}
+.box{
+    justify-self: center;
+    align-self: center;
+}
