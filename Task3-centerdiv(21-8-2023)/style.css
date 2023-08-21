@@ -21,7 +21,7 @@
     left: 38%;
 } */
 
-/* -----------------------------Centeer a div using position and transform-------------------- */
+/* -----------------------------Center a div using position and transform-------------------- */
 
 /* .container{
     position: relative;
@@ -99,7 +99,7 @@
     place-self:center;
 } */
 
-/* -------------------------------Center a div using grid and auto maargin--------------------------- */
+/* -------------------------------Center a div using grid and auto margin--------------------------- */
 
 /* .container{
     display: grid;
@@ -108,7 +108,7 @@
     margin: auto;
 } */
 
-/* -------------------------------Center a div using grid and --------------------------- */
+/* -------------------------------Center a div using grid and align-self --------------------------- */
 
 /* .container{
     display: grid;
@@ -118,7 +118,7 @@
     align-self: center;
 } */
 
-/* ------------------------------------------------------------------------- */
+/* --------------------------------Center a div using grid and justify-self----------------------------------------- */
 
 .container{
     display: grid;
