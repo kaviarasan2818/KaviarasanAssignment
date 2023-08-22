@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: radial-gradient( rgb(247, 239, 225), rgb(63, 61, 60));
+    width:100vw;
+    height: 100vh;
+}
+.box{
+    height: 20vh;
+    width: 10vw;
+    animation: box 10s linear infinite;
+}
+
+@keyframes box {
+    
+    0%{
+        transform: translateX(0vw,0vh);
+        background: radial-gradient(rgb(0, 255, 255), rgb(0, 255, 149));
+    }
+    25%{
+        transform: translate(0vw,80vh);
+        background: radial-gradient(rgb(0, 255, 149), rgb(0, 255, 21));
+    }
+    50%{
+        transform: translate(90vw,80vh);
+        background: radial-gradient(rgb(0, 255, 21), rgb(200, 255, 0));
+    }
+    75%{
+        transform: translate(90vw,0vh);
+        background: radial-gradient(rgb(200, 255, 0), rgb(255, 230, 0));
+    }
+    100%{
+        transform: translate(0vw, 0vh);
+        background: radial-gradient(rgb(255, 230, 0), rgb(255, 115, 0));
+    }
+}
